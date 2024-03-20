@@ -22,7 +22,7 @@ class App extends React.Component {
       <div className="App">
         {this.state.movies.map((movie)=>(
           <div key={movie.id}>
-            <img scr={movie.image}></img>
+            <img scr={}
             <h1>{movie.name}</h1>
             <h2>{movie.description}</h2>
             <h3>{movie.rating}</h3>
