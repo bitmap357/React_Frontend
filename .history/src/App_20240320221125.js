@@ -1,0 +1,38 @@
+// import logo from './logo.svg';
+import './App.css';
+import React from "react";
+import axios from "axios"
+
+const movies = [
+  [
+    {"name":"Movie 1","description":"This is a new movie","rating":4.8,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},
+    {"name":"Movie 2","description":"This is movie 2","rating":5.0,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},
+    {"name":"The beast","description":"One best movie","rating":3.5,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},
+    {"name":"Flask","description":"This is movie 2","rating":4.0,"image":"http://127.0.0.1:8000/media/Images/androidlock2.png"}
+]
+];
+
+class App extends React.Component {
+
+  constructor(props){
+    super(props);
+    this.state = {movies};
+  }
+  render(){
+    return (
+      <div className="App">
+        {this.state.movies.map((movie)=>(
+          <div key={movie.id}>
+            <img scr={movie.image}></img>
+            <h1>{movie.name}</h1>
+            <h2>{movie.description}</h2>
+            <h3>{movie.rating}</h3>
+          </div>
+        ))}
+      </div>
+    );
+    }
+  
+}
+
+export default App;

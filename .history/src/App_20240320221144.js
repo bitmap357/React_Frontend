@@ -7,8 +7,8 @@ import axios from "axios"
 class App extends React.Component {
 
   state = {
-    movies: [],
-  };
+    
+  }
   render(){
     return (
       <div className="App">

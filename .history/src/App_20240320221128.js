@@ -6,9 +6,10 @@ import axios from "axios"
 
 class App extends React.Component {
 
-  state = {
-    movies: [],
-  };
+  constructor(props){
+    super(props);
+    this.state = {movies};
+  }
   render(){
     return (
       <div className="App">
