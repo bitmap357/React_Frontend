@@ -9,7 +9,7 @@ const movies = [
     {"name":"The beast","description":"One best movie","rating":3.5,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},
     {"name":"Flask","description":"This is movie 2","rating":4.0,"image":"http://127.0.0.1:8000/media/Images/androidlock2.png"}
 ]
-];
+]
 
 function App() {
   return (
