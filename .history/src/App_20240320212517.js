@@ -13,10 +13,7 @@ const movies = [
 
 class App extends React.Component {
 
-  constructor(props){
-    super(props);
-    this.state = {movies};
-  }
+  constructor
   render(){
     return (
       <div className="App">

@@ -14,8 +14,7 @@ const movies = [
 class App extends React.Component {
 
   constructor(props){
-    super(props);
-    this.state = {movies};
+    super(props)
   }
   render(){
     return (
