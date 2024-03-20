@@ -2,12 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 const movies = [
-  [
-    {"name":"Movie 1","description":"This is a new movie","rating":4.8,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},
-    {"name":"Movie 2","description":"This is movie 2","rating":5.0,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},
-    {"name":"The beast","description":"One best movie","rating":3.5,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},
-    {"name":"Flask","description":"This is movie 2","rating":4.0,"image":"http://127.0.0.1:8000/media/Images/androidlock2.png"}
-]
+  [{"name":"Movie 1","description":"This is a new movie","rating":4.8,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},{"name":"Movie 2","description":"This is movie 2","rating":5.0,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},{"name":"The beast","description":"One best movie","rating":3.5,"image":"http://127.0.0.1:8000/media/Images/None/sampleImg.jpg"},{"name":"Flask","description":"This is movie 2","rating":4.0,"image":"http://127.0.0.1:8000/media/Images/androidlock2.png"}]
 ]
 
 function App() {
