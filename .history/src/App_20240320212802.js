@@ -20,13 +20,7 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
-        {this.state.movies.map((movie)=>(
-          <div key={movie.id}>
-            <h1>{movie.name}</h1>
-            <h2>{movie.description}</h2>
-            <h3>{movie.rating}</h3>
-          </div>
-        ))}
+        {this.state.movies.map(())}
       </div>
     );
     }

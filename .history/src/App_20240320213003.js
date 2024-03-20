@@ -22,9 +22,8 @@ class App extends React.Component {
       <div className="App">
         {this.state.movies.map((movie)=>(
           <div key={movie.id}>
-            <h1>{movie.name}</h1>
-            <h2>{movie.description}</h2>
-            <h3>{movie.rating}</h3>
+            <h1>{movie.name</h1>
+            <h2>{movie.desc}</h2>
           </div>
         ))}
       </div>
