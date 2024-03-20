@@ -13,7 +13,7 @@ const movies = [
 
 class App extends React.Component {
 
-  render(){
+  render(){}
     return (
       <div className="App">
         <header className="App-header">
@@ -32,7 +32,7 @@ class App extends React.Component {
         </header>
       </div>
     );
-    }
+  )
   
 }
 
