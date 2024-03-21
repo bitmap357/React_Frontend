@@ -9,10 +9,7 @@ class App extends React.Component {
   state = {
     movies: [],
   };
-  componentDidMount() {
-    this.getMovies();
-  }
-  getMovies()
+  componentDidMount()
   render(){
     return (
       <div className="App">

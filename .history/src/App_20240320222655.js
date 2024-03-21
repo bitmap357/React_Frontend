@@ -10,9 +10,8 @@ class App extends React.Component {
     movies: [],
   };
   componentDidMount() {
-    this.getMovies();
+    
   }
-  getMovies()
   render(){
     return (
       <div className="App">
