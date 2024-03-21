@@ -16,9 +16,7 @@ class App extends React.Component {
     axios.get("http://127.0.0.1:8000/movieapi/").then((res) => {
       this.setState({ movies: res.data });
     });
-    .catch((error) => {
-      console.log(error)
-    });
+    .catch((error))
   }
   render(){
     return (
