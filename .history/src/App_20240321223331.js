@@ -16,16 +16,16 @@ class App extends React.Component {
     axios.get("http://127.0.0.1:8000/movieapi/").then((res) => {
       this.setState({ movies: res.data });
     });
-    // .catch((error) => {
-    //   console.log(error)
-    // });
+    .catch((error) => {
+      console.log(error)
+    });
   }
   render(){
     return (
       <div className="App">
         {this.state.movies.map((movie)=>(
           <div key={movie.id}>
-            <img scr={movie.image} alt=''></img>
+            <img scr={movie.image}></img>
             <h1>{movie.name}</h1>
             <h2>{movie.description}</h2>
             <h3>{movie.rating}</h3>
